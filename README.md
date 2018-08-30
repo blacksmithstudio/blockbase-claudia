@@ -1,6 +1,9 @@
 # Driver Claudia JS for Blockbase
 Compatible with Blockbase Framework
 
+### Requirements
+You should use blockbase v1.0.12 as a minimum version. 
+
 ### Version
 0.0.1
 

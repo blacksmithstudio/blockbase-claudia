@@ -1,0 +1,23 @@
+{
+  "name": "blockbase-claudia",
+  "version": "0.0.1",
+  "description": "blockbase driver for Claudia JS (AWS Lambda Compatibility)",
+  "main": "driver.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:blacksmithstudio/blockbase-claudia.git"
+  },
+  "author": "Alexandre Pereira <alex@blacksmith.studio>",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.1"
+  },
+  "devDependencies": {
+    "blockbase": "*",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  }
+}

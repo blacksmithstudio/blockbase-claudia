@@ -1,0 +1,17 @@
+log : true
+name  : driver-claudia-test
+
+claudia :
+    routes :
+        # Classic view with no Controller
+        - type: view
+          src: /
+          dest: index
+          method: get
+          extra: 
+            apiKeyRequired: true
+        # Controller Related route 
+        - type: controller
+          src: /api/foo
+          dest: foo::bar
+          method: get
